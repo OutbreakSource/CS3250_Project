@@ -1,5 +1,16 @@
+/**
+ * Update CSV by row and column
+ *
+ * @param fileToUpdate CSV file path to update e.g. D:\\chetan\\test.csv
+ * @param replace Replacement for your cell value
+ * @param row Row for which need to update
+ * @param col Column for which you need to update
+ * @throws IOException
+ */
+
+
 public class DataEntry {
-	// The backup class for a pseudo-database
+
 	private static String PRODUCT_ID;
 	private static Integer QUANTITY;
 	private static double WHOLESALE_COST;
